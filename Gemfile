@@ -13,6 +13,8 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+#devise gem for user authentication
+gem 'devise', '>=3.2.4'
 
 
 # Use Uglifier as compressor for JavaScript assets
