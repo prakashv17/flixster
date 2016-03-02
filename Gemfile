@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails_12factor', group: :production
 
+#for adding forms to a page
+gem 'simple_form'
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
