@@ -12,6 +12,9 @@ gem 'sass-rails'
 #carrier wave gem for photos
 gem 'carrierwave'
 
+#image resizer mini majik gem
+gem 'mini_magick', '~> 4.3.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
