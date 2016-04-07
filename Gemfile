@@ -12,8 +12,17 @@ gem 'sass-rails'
 #carrier wave gem for photos
 gem 'carrierwave'
 
+# For Carrierwave to touch base with AWS
+gem 'fog', "~> 1.3.1"
+
+#To apply ENV for the API Key, to encrypt out API key
+gem "figaro", ">= 1.0.0"
+
 #image resizer mini majik gem
 gem 'mini_magick', '~> 4.3.1'
+
+# to upload video
+gem 'carrierwave-aws'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
