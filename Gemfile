@@ -21,7 +21,7 @@ gem "figaro", ">= 1.0.0"
 #image resizer mini majik gem
 gem 'mini_magick', '~> 4.3.1'
 
-# to upload video
+# to upload video to Amazon S3 environment
 gem 'carrierwave-aws'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
